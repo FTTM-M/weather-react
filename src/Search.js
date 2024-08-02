@@ -52,6 +52,12 @@ export default function Search(props) {
         <input type="submit" value="Search" />
       </form>
       <h4>{Description}</h4>
+      <div>
+        coded by <a href="https://github.com/FTTM-M">Fatemeh</a>, is
+        open-sourced on{" "}
+        <a href="https://github.com/FTTM-M/weather-react">GitHub</a> and hosted
+        on <a href="https://www.netlify.com/">Netlify</a>
+      </div>{" "}
     </div>
   );
 }
